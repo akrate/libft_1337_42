@@ -6,7 +6,7 @@
 /*   By: aoussama <aoussama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/28 14:13:24 by aoussama          #+#    #+#             */
-/*   Updated: 2024/11/13 22:51:03 by aoussama         ###   ########.fr       */
+/*   Updated: 2024/11/22 20:27:20 by aoussama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -100,18 +100,3 @@ char	**ft_split(char const *s, char c)
 	}
 	return (result[j] = NULL, result);
 }
-// int main()
-// {
-// 	char p[] = ",h";
-// 	char **o = ft_split(p,',');
-// 	int i = 0;
-// 	if (o == NULL){
-// 		printf("bbbb\n");
-// 		return (0);
-// 	}
-// 	while (o[i])
-// 	{
-// 		printf("%s$\n",o[i]);
-// 		i++;
-// 	}
-// }

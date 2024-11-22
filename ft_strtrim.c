@@ -6,7 +6,7 @@
 /*   By: aoussama <aoussama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 15:59:50 by aoussama          #+#    #+#             */
-/*   Updated: 2024/11/07 15:04:58 by aoussama         ###   ########.fr       */
+/*   Updated: 2024/11/22 20:27:53 by aoussama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,9 +44,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 		last--;
 	return (ft_substr(s1, first, (last - first + 1)));
 }
-// int main()
-// {
-// 	char o[] = "salam jhjhvsa";
-// 	char *r = ft_strtrim(o ,"sa");
-// 	printf("%s\n",r);
-// }

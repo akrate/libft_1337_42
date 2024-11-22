@@ -6,7 +6,7 @@
 /*   By: aoussama <aoussama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 16:41:43 by aoussama          #+#    #+#             */
-/*   Updated: 2024/11/08 18:30:17 by aoussama         ###   ########.fr       */
+/*   Updated: 2024/11/22 20:27:00 by aoussama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,3 @@ t_list	*ft_lstnew(void *content)
 	node->next = NULL;
 	return (node);
 }
-// int main()
-// {
-// 	t_list *node3;
-
-// 	node3 = ft_lstnew("hello");
-// 	printf("%s",(char *)node3 ->content);
-// }

@@ -6,7 +6,7 @@
 /*   By: aoussama <aoussama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 13:33:05 by aoussama          #+#    #+#             */
-/*   Updated: 2024/11/04 10:02:12 by aoussama         ###   ########.fr       */
+/*   Updated: 2024/11/22 20:27:48 by aoussama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,13 +25,4 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-// int main()
-// {
-// 	char h[] = "soplamm ohhphh";
-// 	char *l = ft_strrchr(h,'p');
-// 	if(l)
-// 	{
-// 		printf("%s\n", l);
-// 	}else
-// 		printf("mkynch");
-// }
+
